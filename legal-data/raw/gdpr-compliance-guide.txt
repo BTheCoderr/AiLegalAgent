@@ -1,0 +1,43 @@
+GDPR Compliance Guide for Startups
+
+The General Data Protection Regulation (GDPR) applies to any organization processing personal data of EU residents, regardless of company location. For startups, compliance involves several key areas:
+
+1. LAWFUL BASIS FOR PROCESSING
+Startups must establish a lawful basis for processing personal data:
+- Consent: Explicit, informed consent from data subjects
+- Contract: Processing necessary for contract performance
+- Legal obligation: Compliance with legal requirements
+- Vital interests: Protection of life or health
+- Public task: Performance of public interest tasks
+- Legitimate interests: Legitimate business interests (most common for startups)
+
+2. PRIVACY POLICY REQUIREMENTS
+Your privacy policy must include:
+- Identity and contact details of data controller
+- Purposes and lawful basis for processing
+- Categories of personal data collected
+- Recipients or categories of recipients
+- Data retention periods
+- Data subject rights
+- Right to lodge complaints with supervisory authorities
+- Information about automated decision-making
+
+3. DATA SUBJECT RIGHTS
+Individuals have the right to:
+- Access their personal data
+- Rectify inaccurate data
+- Erase data (right to be forgotten)
+- Restrict processing
+- Data portability
+- Object to processing
+- Not be subject to automated decision-making
+
+Common startup compliance steps:
+1. Conduct data mapping exercise
+2. Update privacy policy and cookie policy
+3. Implement consent management platform
+4. Establish data subject request procedures
+5. Create data breach response plan
+6. Train staff on GDPR requirements
+7. Review and update vendor agreements
+8. Implement technical security measures

@@ -1,0 +1,54 @@
+{
+  "name": "ai-legal-agents-startups",
+  "version": "1.0.0",
+  "description": "AI Legal Agents for Startups - Premium legal compliance platform",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "build": "next build",
+    "start": "next start -p 3002",
+    "lint": "next lint",
+    "backend": "cd backend && python app.py",
+    "ingest": "node infra/ingest.js",
+    "ingest:demo": "node infra/ingest-demo.js",
+    "ingest:enhanced": "node infra/ingest-enhanced.js"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@supabase/supabase-js": "^2.38.0",
+    "autoprefixer": "^10.4.16",
+    "cosine-similarity": "^1.0.1",
+    "dotenv": "^16.5.0",
+    "framer-motion": "^10.16.4",
+    "handlebars": "^4.7.8",
+    "langchain": "^0.2.0",
+    "lucide-react": "^0.292.0",
+    "next": "^14.0.0",
+    "openai": "^4.20.0",
+    "postcss": "^8.4.31",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tailwindcss": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "AI",
+    "legal",
+    "startups",
+    "compliance",
+    "GDPR",
+    "SOC2",
+    "privacy"
+  ],
+  "author": "AI Legal Agents Team",
+  "license": "MIT"
+}

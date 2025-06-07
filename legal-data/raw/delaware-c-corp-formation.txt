@@ -1,0 +1,52 @@
+Delaware C-Corporation Formation Guide
+
+Delaware remains the preferred jurisdiction for startup incorporation due to its business-friendly laws and established legal precedents.
+
+INCORPORATION PROCESS:
+
+1. CERTIFICATE OF INCORPORATION
+Required provisions:
+- Corporate name (must be available)
+- Purpose clause (can be broad: "any lawful business")
+- Authorized shares (common and preferred)
+- Registered agent in Delaware
+- Incorporator information
+
+Typical structure:
+- 10,000,000 authorized common shares
+- 3,000,000 authorized preferred shares
+- Par value: $0.0001 per share
+
+2. CORPORATE BYLAWS
+Key provisions:
+- Board composition and election procedures
+- Shareholder meeting requirements
+- Officer roles and responsibilities
+- Amendment procedures
+- Indemnification provisions
+
+3. INITIAL BOARD RESOLUTIONS
+Must address:
+- Adoption of bylaws
+- Appointment of officers
+- Authorization of stock issuance
+- Election of tax status (S-Corp vs C-Corp)
+- Banking resolutions
+
+4. STOCK PURCHASE AGREEMENTS
+For founder shares:
+- Vesting schedules (typically 4 years, 1-year cliff)
+- Right of first refusal provisions
+- Co-sale rights
+- Drag-along provisions
+
+COMPLIANCE REQUIREMENTS:
+- Annual franchise tax: $175 minimum
+- Registered agent: $50-200/year
+- Annual report filing required
+- Board meeting minutes required
+
+LEGAL COSTS:
+- DIY formation: $200-500
+- Attorney formation: $1,500-5,000
+- Ongoing compliance: $500-2,000/year

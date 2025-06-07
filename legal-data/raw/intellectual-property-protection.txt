@@ -1,0 +1,87 @@
+Intellectual Property Protection for Startups
+
+Comprehensive IP strategy is crucial for startup valuation and competitive advantage. Protection includes trademarks, patents, copyrights, and trade secrets.
+
+TRADEMARK PROTECTION:
+
+1. TRADEMARK SEARCH AND REGISTRATION
+Search requirements:
+- USPTO database (TESS)
+- State trademark databases
+- Common law trademark research
+- Domain name availability
+
+Registration process:
+- Application filing: $350-750 per class
+- Examination period: 6-12 months
+- Opposition period: 30 days
+- Registration certificate: 6-10 years validity
+
+2. TRADEMARK CLASSES
+Key classes for startups:
+- Class 9: Software and mobile apps
+- Class 35: Business services and advertising
+- Class 42: Software development services
+- Class 36: Financial and payment services
+
+PATENT PROTECTION:
+
+1. PATENTABLE SUBJECT MATTER
+Eligible inventions:
+- Novel technical processes
+- Software with technical implementation
+- Hardware devices and systems
+- Business methods with technical components
+
+2. PATENT APPLICATION PROCESS
+Provisional application benefits:
+- 12-month priority period
+- Lower initial cost ($320-1,600)
+- "Patent Pending" status
+- Option to file full application later
+
+Non-provisional application:
+- Formal examination process
+- 18-month publication
+- 2-3 year examination period
+- 20-year protection term
+
+COPYRIGHT PROTECTION:
+
+Automatic Protection:
+- Original works of authorship
+- Fixed in tangible medium
+- No registration required for basic protection
+
+Registration benefits:
+- Statutory damages available
+- Attorney fees recovery
+- Stronger enforcement rights
+- Public record of ownership
+
+TRADE SECRET PROTECTION:
+
+Requirements for protection:
+- Information has economic value
+- Not generally known or readily ascertainable
+- Reasonable efforts to maintain secrecy
+
+Protection measures:
+- Non-disclosure agreements (NDAs)
+- Employee confidentiality agreements
+- Access controls and security measures
+- Clear marking of confidential materials
+
+IP ASSIGNMENT AGREEMENTS:
+
+Employee agreements must include:
+- Work-for-hire provisions
+- Assignment of inventions
+- Moral rights waivers (where applicable)
+- Survivability clauses
+
+Contractor agreements require:
+- Explicit IP assignment language
+- Work-for-hire designations
+- Deliverable specifications
+- Indemnification provisions

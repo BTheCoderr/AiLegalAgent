@@ -1,0 +1,38 @@
+Series A Fundraising Legal Documents Guide
+
+Series A financing involves multiple complex legal documents. Here's a comprehensive guide for startup founders:
+
+KEY LEGAL DOCUMENTS:
+
+1. STOCK PURCHASE AGREEMENT (SPA)
+Primary transaction document containing:
+- Purchase price and closing conditions
+- Representations and warranties
+- Covenants and agreements
+- Indemnification provisions
+- Closing conditions
+
+2. INVESTOR RIGHTS AGREEMENT
+Ongoing rights and obligations:
+- Information and inspection rights
+- Registration rights
+- Right of first refusal on new securities
+- Co-sale rights
+
+3. VOTING AGREEMENT
+Board and stockholder matters:
+- Board composition and election
+- Drag-along provisions
+- Voting trusts (if applicable)
+
+LEGAL COSTS:
+- Company legal fees: $75K-$150K
+- Investor legal fees: $25K-$75K
+- Total transaction costs: $100K-$225K
+
+TIMELINE:
+- Term sheet negotiation: 2-4 weeks
+- Legal documentation: 4-8 weeks
+- Due diligence: 2-6 weeks
+- Closing: 1-2 weeks
+- Total process: 2-4 months

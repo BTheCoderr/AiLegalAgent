@@ -1,0 +1,133 @@
+Securities Law Compliance for Startup Fundraising
+
+Startup fundraising must comply with federal and state securities laws. This guide covers exemptions, disclosure requirements, and compliance obligations.
+
+FEDERAL SECURITIES LAW FRAMEWORK:
+
+1. SECURITIES ACT OF 1933
+Core principle: All securities offerings must be registered or qualify for an exemption.
+
+Common startup exemptions:
+- Rule 506(b): Private placement, accredited investors
+- Rule 506(c): General solicitation allowed, verified accredited investors
+- Rule 504: Small offerings up to $10 million
+- Regulation Crowdfunding: Public offerings up to $5 million
+
+2. SECURITIES EXCHANGE ACT OF 1934
+Reporting obligations triggered by:
+- 2,000+ shareholders of record
+- 500+ non-accredited shareholders
+- $10 million+ in assets
+
+RULE 506(B) PRIVATE PLACEMENTS:
+
+Requirements and limitations:
+- No general solicitation or advertising
+- Unlimited accredited investors
+- Up to 35 sophisticated non-accredited investors
+- No monetary limit on offering size
+- Form D filing within 15 days
+
+Accredited investor definitions:
+- Individual: $1M+ net worth or $200K+ annual income
+- Entity: $5M+ in assets or all owners are accredited
+- Knowledgeable employees of private funds
+- Large family offices ($5M+ under management)
+
+3. RULE 506(C) PUBLIC SOLICITATION
+
+Additional requirements beyond 506(b):
+- General solicitation and advertising permitted
+- All investors must be accredited
+- Reasonable steps to verify accredited status
+- Enhanced disclosure obligations
+- Form D filing requirement
+
+DISCLOSURE OBLIGATIONS:
+
+1. PRIVATE PLACEMENT MEMORANDUM (PPM)
+Typical sections:
+- Executive summary and business overview
+- Risk factors and forward-looking statements
+- Use of proceeds and investment terms
+- Management team and advisors
+- Financial statements and projections
+- Legal structure and governance
+
+2. SUBSCRIPTION DOCUMENTS
+Key agreements:
+- Subscription agreement with investor representations
+- Purchase agreement or convertible note terms
+- Investor rights agreement (for equity rounds)
+- Information and inspection rights
+
+STATE SECURITIES LAW (BLUE SKY):
+
+1. STATE FILING REQUIREMENTS
+Notice filings required in states where:
+- Investors are residents
+- Offers are made
+- Sales are consummated
+
+Common state requirements:
+- Form D state equivalent filing
+- Filing fees ($100-$1,000 per state)
+- Consent to service of process
+- Investment advisor registration (sometimes)
+
+2. STATE EXEMPTION COORDINATION
+Uniform coordination:
+- Series A-F offerings often qualify for multiple state exemptions
+- NASAA coordination among state regulators
+- Merit review vs. notice filing states
+
+ONGOING COMPLIANCE:
+
+1. REPORTING TO INVESTORS
+Information rights typically include:
+- Annual audited financial statements
+- Quarterly or monthly updates
+- Material event notifications
+- Board meeting minutes (sometimes)
+
+2. TRANSFER RESTRICTIONS
+Securities legend requirements:
+- Reference to securities laws restrictions
+- Resale limitations and holding periods
+- Transfer agent instructions
+- Board or investor approval requirements
+
+3. EMPLOYEE STOCK OPTION COMPLIANCE
+Rule 701 exemption requirements:
+- Compensatory benefit plan
+- Written plan document
+- Employee, director, or consultant recipients
+- Disclosure requirements for large plans
+
+409A VALUATIONS:
+
+Requirement triggers:
+- Stock option grants to employees
+- Preferred stock issuances
+- Significant business changes
+- 12-month safe harbor periods
+
+Valuation methodologies:
+- Asset approach (early stage)
+- Market approach (comparable companies)
+- Income approach (revenue-generating companies)
+- Hybrid approaches for complex situations
+
+INVESTMENT ADVISOR CONSIDERATIONS:
+
+Registration thresholds:
+- $100M+ assets under management (federal)
+- $100M assets under management (state)
+- 15+ clients (varies by state)
+- Performance-based fees to non-qualified clients
+
+Exemptions for startups:
+- Venture capital advisor exemption
+- Private fund advisor exemption
+- Intrastate advisor exemption
+- Family office exemption

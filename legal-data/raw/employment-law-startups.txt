@@ -1,0 +1,66 @@
+Employment Law Compliance for Startups
+
+Startups must navigate complex employment laws from day one. Key areas include classification, equity compensation, and workplace policies.
+
+EMPLOYEE VS CONTRACTOR CLASSIFICATION:
+
+IRS 20-Factor Test Key Elements:
+- Behavioral control: How work is performed
+- Financial control: How worker is paid
+- Relationship type: Written contracts and benefits
+
+Safe Harbor for Contractors:
+- Separate business with multiple clients
+- Marketing services to others
+- Own tools and equipment
+- Set own schedule and methods
+
+EQUITY COMPENSATION:
+
+1. STOCK OPTION PLANS
+409A valuations required for:
+- Option grant pricing
+- Tax compliance
+- Investor due diligence
+Frequency: Annual or after material events
+
+2. VESTING SCHEDULES
+Standard startup vesting:
+- 4-year vesting period
+- 1-year cliff (25% vests after year 1)
+- Monthly vesting thereafter
+- Acceleration provisions for termination/acquisition
+
+3. 83(B) ELECTIONS
+Must file within 30 days of grant for:
+- Restricted stock purchases
+- Early exercise of options
+- Tax optimization strategy
+
+WORKPLACE POLICIES:
+
+Required Policies:
+- Anti-harassment and discrimination
+- At-will employment statements
+- Confidentiality and IP assignment
+- Code of conduct
+- Leave policies (FMLA, state-specific)
+
+WAGE AND HOUR COMPLIANCE:
+- Minimum wage requirements (federal/state)
+- Overtime calculations (non-exempt employees)
+- Break and meal period requirements
+- Payroll tax obligations
+
+TERMINATION PROCEDURES:
+- Final pay requirements (varies by state)
+- COBRA notification obligations
+- Return of company property
+- Non-compete enforceability (limited in many states)
+
+MULTI-STATE CONSIDERATIONS:
+Each state has unique requirements for:
+- Pay frequency and final pay timing
+- Break period requirements
+- Leave law obligations
+- Workers' compensation insurance
