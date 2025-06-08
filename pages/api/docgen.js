@@ -4,10 +4,12 @@ import { getMetricsLogger } from '../../lib/metrics.js';
 // All documents must be approved before completion
 
 const SUPPORTED_JURISDICTIONS = {
+  'massachusetts': 'Massachusetts',
+  'rhode_island': 'Rhode Island', 
+  'connecticut': 'Connecticut',
   'delaware': 'Delaware',
   'california': 'California',
   'new_york': 'New York',
-  'massachusetts': 'Massachusetts',
   'texas': 'Texas',
   'federal': 'Federal'
 };
@@ -117,12 +119,14 @@ function getEstimatedCompletion(estimatedTime) {
 function calculatePrice(basePrice, jurisdiction, parameters) {
   let price = basePrice;
   
-  // Jurisdiction-based pricing adjustments
+  // Jurisdiction-based pricing adjustments (prioritizing your local markets)
   const jurisdictionMultipliers = {
+    'massachusetts': 1.0,      // Your primary market
+    'rhode_island': 1.0,       // Your primary market  
+    'connecticut': 1.05,       // Your primary market
+    'delaware': 1.1,
     'california': 1.2,
     'new_york': 1.15,
-    'delaware': 1.0,
-    'massachusetts': 1.1,
     'texas': 0.95,
     'federal': 1.3
   };

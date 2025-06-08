@@ -51,7 +51,8 @@ jspm_packages/
 .env
 
 # next.js build output
-.next
+.next/
+.next/**
 
 # nuxt.js build output
 .nuxt

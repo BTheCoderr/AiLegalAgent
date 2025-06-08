@@ -248,6 +248,104 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Demo Section */}
+        <section id="demo" className="section-padding bg-primary-50">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <h2 className="heading-2 mb-4">See AI Legal Agents in Action</h2>
+              <p className="text-large max-w-2xl mx-auto mb-8">
+                Watch how our AI-powered platform transforms legal compliance for Massachusetts, Rhode Island, and Connecticut startups
+              </p>
+            </div>
+
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              {/* Demo Video Placeholder */}
+              <div className="relative">
+                <div className="bg-white rounded-lg shadow-xl p-8 border border-gray-200">
+                  <div className="bg-gray-900 rounded-lg aspect-video flex items-center justify-center mb-6">
+                    <div className="text-center">
+                      <div className="w-20 h-20 bg-white bg-opacity-20 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
+                        </svg>
+                      </div>
+                      <p className="text-white text-lg font-medium">Interactive Demo</p>
+                      <p className="text-gray-300 text-sm">5 minute walkthrough</p>
+                    </div>
+                  </div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Live Platform Demo</h3>
+                  <p className="text-gray-600">Experience all 5 core features with real legal scenarios</p>
+                </div>
+              </div>
+
+              {/* Demo Features */}
+              <div className="space-y-6">
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">What You'll See:</h3>
+                
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
+                    <span className="text-blue-600 font-semibold text-sm">1</span>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900">AI Legal Q&A</h4>
+                    <p className="text-gray-600">Ask complex legal questions and get instant, cited answers</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
+                    <span className="text-blue-600 font-semibold text-sm">2</span>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900">Smart Case Triage</h4>
+                    <p className="text-gray-600">Automatically classify and prioritize legal issues</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
+                    <span className="text-blue-600 font-semibold text-sm">3</span>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900">Document Generation</h4>
+                    <p className="text-gray-600">Generate MA/RI/CT-specific legal documents with pricing</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
+                    <span className="text-blue-600 font-semibold text-sm">4</span>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900">Attorney Review Queue</h4>
+                    <p className="text-gray-600">Human-in-loop compliance with jurisdiction tracking</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
+                    <span className="text-blue-600 font-semibold text-sm">5</span>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900">Admin Analytics</h4>
+                    <p className="text-gray-600">Real-time metrics and performance dashboards</p>
+                  </div>
+                </div>
+
+                <div className="pt-6">
+                  <Link href="/ask-ai" className="btn-primary inline-flex items-center">
+                    Try It Live Now
+                    <ChevronRightIcon className="ml-2 h-5 w-5" />
+                  </Link>
+                  <Link href="/pricing" className="ml-4 text-blue-600 hover:text-blue-700 font-medium">
+                    View Pricing →
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Testimonials Section */}
         <section id="testimonials" className="section-padding">
           <div className="container-custom">

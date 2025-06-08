@@ -73,7 +73,7 @@ const JURISDICTIONS = {
 
 export default function GenerateDocument() {
   const [selectedDocType, setSelectedDocType] = useState('');
-  const [selectedJurisdiction, setSelectedJurisdiction] = useState('');
+  const [selectedJurisdiction, setSelectedJurisdiction] = useState('massachusetts');
   const [parameters, setParameters] = useState({
     companyName: '',
     complexity: 'standard',
