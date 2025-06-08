@@ -7,8 +7,10 @@
   "scripts": {
     "dev": "next dev -p 3002",
     "build": "next build",
-    "start": "next start -p 3002",
+    "start": "next start",
     "lint": "next lint",
+    "export": "next build && next export",
+    "build:netlify": "next build && next export",
     "backend": "cd backend && python app.py",
     "ingest": "node infra/ingest.js",
     "ingest:demo": "node infra/ingest-demo.js",
