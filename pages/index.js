@@ -51,27 +51,21 @@ const pricingTiers = [
   }
 ]
 
-const testimonials = [
+const benefits = [
   {
-    name: 'Sarah Chen',
-    role: 'CEO, TechFlow AI',
-    company: 'Y Combinator S23',
-    content: 'AI Legal Agents saved us $50k in legal fees during our Series A. The compliance guidance was spot-on.',
-    avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b1b1?w=400'
+    icon: '⚡',
+    title: 'Instant Legal Guidance',
+    description: 'Get answers to complex legal questions in seconds, not days. Our AI analyzes your specific situation and provides actionable guidance.'
   },
   {
-    name: 'Marcus Rodriguez',
-    role: 'Co-founder, DataSync',
-    company: 'Techstars 2023',
-    content: 'From GDPR to SOC 2, they handled our entire compliance stack. Now we focus on building, not legal docs.',
-    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400'
+    icon: '💰',
+    title: '90% Cost Reduction',
+    description: 'Pay $199-$1,299/month instead of $50,000+ for traditional legal services. Enterprise-grade guidance at startup-friendly prices.'
   },
   {
-    name: 'Emily Watson',
-    role: 'Founder, SecureAPI',
-    company: '$2M ARR',
-    content: 'The AI agent feels like having a $500/hour lawyer available 24/7. Game-changer for our legal operations.',
-    avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400'
+    icon: '🎯',
+    title: 'Startup-Specific Expertise',
+    description: 'Built specifically for venture-backed companies. Covers fundraising, GDPR, SOC 2, employment law, and international expansion.'
   }
 ]
 
@@ -333,32 +327,22 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Testimonials Section */}
-        <section id="testimonials" className="section-padding">
+        {/* Benefits Section */}
+        <section id="benefits" className="section-padding">
           <div className="container-custom">
             <div className="text-center mb-16">
-              <h2 className="heading-2 mb-4">Loved by Startup Founders</h2>
+              <h2 className="heading-2 mb-4">Why Startups Choose AI Legal Agents</h2>
               <p className="text-large max-w-2xl mx-auto">
-                See how AI Legal Agents is transforming legal operations for high-growth startups
+                Built specifically for fast-scaling companies that need enterprise-grade legal guidance without the enterprise price tag
               </p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
-              {testimonials.map((testimonial, index) => (
-                <div key={index} className="card">
-                  <p className="text-secondary-700 mb-6 italic">"{testimonial.content}"</p>
-                  <div className="flex items-center">
-                    <img 
-                      src={testimonial.avatar} 
-                      alt={testimonial.name}
-                      className="w-12 h-12 rounded-full mr-4 object-cover"
-                    />
-                    <div>
-                      <p className="font-semibold text-secondary-900">{testimonial.name}</p>
-                      <p className="text-sm text-secondary-600">{testimonial.role}</p>
-                      <p className="text-sm text-primary-600 font-medium">{testimonial.company}</p>
-                    </div>
-                  </div>
+              {benefits.map((benefit, index) => (
+                <div key={index} className="card text-center">
+                  <div className="text-4xl mb-4">{benefit.icon}</div>
+                  <h3 className="heading-3 mb-4">{benefit.title}</h3>
+                  <p className="text-secondary-600">{benefit.description}</p>
                 </div>
               ))}
             </div>
