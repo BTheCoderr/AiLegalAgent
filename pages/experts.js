@@ -279,9 +279,15 @@ export default function Experts() {
                   >
                     Book Consultation
                   </button>
-                  <button className="flex-1 btn-secondary text-sm py-2">
+                  <Link 
+                    href={
+                      expert.id === 1 ? '/experts/sarah-mitchell' : 
+                      expert.id === 4 ? '/experts/david-park' : '#'
+                    }
+                    className="flex-1 btn-secondary text-sm py-2 text-center"
+                  >
                     View Profile
-                  </button>
+                  </Link>
                 </div>
               </div>
             ))}
@@ -340,9 +346,9 @@ export default function Experts() {
               >
                 Cancel
               </button>
-              <button className="flex-1 btn-primary">
+              <Link href="/booking" className="flex-1 btn-primary text-center">
                 Continue to Booking
-              </button>
+              </Link>
             </div>
           </div>
         </div>

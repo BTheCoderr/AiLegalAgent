@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useState } from 'react'
 import { CheckIcon, ChevronRightIcon, ScaleIcon, ShieldCheckIcon, DocumentTextIcon, UsersIcon } from '@heroicons/react/24/outline'
+import InteractiveDemo from '../components/InteractiveDemo'
 
 const pricingTiers = [
   {
@@ -259,23 +260,9 @@ export default function Home() {
             </div>
 
             <div className="grid lg:grid-cols-2 gap-12 items-center">
-              {/* Demo Video Placeholder */}
+              {/* Interactive Demo */}
               <div className="relative">
-                <div className="bg-white rounded-lg shadow-xl p-8 border border-gray-200">
-                  <div className="bg-gray-900 rounded-lg aspect-video flex items-center justify-center mb-6">
-                    <div className="text-center">
-                      <div className="w-20 h-20 bg-white bg-opacity-20 rounded-full flex items-center justify-center mb-4 mx-auto">
-                        <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
-                        </svg>
-                      </div>
-                      <p className="text-white text-lg font-medium">Interactive Demo</p>
-                      <p className="text-gray-300 text-sm">5 minute walkthrough</p>
-                    </div>
-                  </div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Live Platform Demo</h3>
-                  <p className="text-gray-600">Experience all 5 core features with real legal scenarios</p>
-                </div>
+                <InteractiveDemo />
               </div>
 
               {/* Demo Features */}

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useState } from 'react'
 import { MagnifyingGlassIcon, ArrowLeftIcon, DocumentTextIcon, CheckCircleIcon, XCircleIcon, HandThumbUpIcon, HandThumbDownIcon, ClockIcon, SparklesIcon } from '@heroicons/react/24/outline'
+import FeedbackWidget from '../components/FeedbackWidget'
 
 const sampleQuestions = [
   "How do I make my startup GDPR compliant?",
@@ -403,6 +404,9 @@ export default function AskAI() {
             </div>
           </div>
         </div>
+        
+        {/* Feedback Widget */}
+        <FeedbackWidget page="ask-ai" />
       </div>
     </>
   )
