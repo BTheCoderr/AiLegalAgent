@@ -75,8 +75,8 @@ const testimonials = [
   }
 ]
 
-const partners = [
-  'Y Combinator', 'Techstars', 'Andreessen Horowitz', 'Sequoia Capital', 'First Round'
+const techStack = [
+  'OpenAI GPT-4', 'Next.js', 'Supabase', 'Tailwind CSS', 'Vercel'
 ]
 
 export default function Home() {
@@ -132,7 +132,7 @@ export default function Home() {
               </h1>
               <p className="text-large mb-8 max-w-3xl mx-auto animate-slide-up">
                 Automate your legal compliance with AI. From GDPR to SOC 2, get enterprise-grade legal guidance 
-                without the enterprise price tag. Trusted by 500+ Y Combinator and Techstars companies.
+                without the enterprise price tag. Purpose-built for fast-scaling startups.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up animation-delay-200">
                 <Link href="/ask-ai" className="btn-primary text-lg px-8 py-4">
@@ -150,14 +150,14 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Partners Section */}
+        {/* Tech Stack Section */}
         <section className="py-12 bg-secondary-50">
           <div className="container-custom">
-            <p className="text-center text-secondary-600 mb-8">Trusted by startups backed by</p>
+            <p className="text-center text-secondary-600 mb-8">Built with modern technology</p>
             <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
-              {partners.map((partner, index) => (
+              {techStack.map((tech, index) => (
                 <div key={index} className="text-secondary-700 font-semibold text-lg">
-                  {partner}
+                  {tech}
                 </div>
               ))}
             </div>
@@ -370,7 +370,7 @@ export default function Home() {
           <div className="container-custom text-center">
             <h2 className="heading-2 text-white mb-4">Ready to Scale Your Legal Operations?</h2>
             <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
-              Join 500+ startups who've automated their legal compliance with AI Legal Agents
+              Join the next generation of startups automating legal compliance with AI
             </p>
             <Link href="/ask-ai" className="bg-white text-primary-600 hover:bg-primary-50 font-medium py-4 px-8 rounded-lg text-lg transition-colors duration-200">
               Start Your Free Trial
