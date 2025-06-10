@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact AI Legal Agents | Get in Touch</title>
+    <style>
+        /* Hidden form for Netlify to detect */
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hidden forms for Netlify Forms detection -->
+    <form name="contact" netlify class="hidden">
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <input type="text" name="company" />
+        <select name="type">
+            <option value="general">General Inquiry</option>
+            <option value="sales">Sales & Pricing</option>
+            <option value="demo">Request Demo</option>
+            <option value="partnership">Partnership</option>
+            <option value="support">Technical Support</option>
+        </select>
+        <textarea name="message"></textarea>
+    </form>
+
+    <form name="early-access" netlify class="hidden">
+        <input type="email" name="email" />
+    </form>
+
+    <!-- Redirect to main site -->
+    <script>
+        window.location.href = '/contact';
+    </script>
+</body>
+</html> 

@@ -133,9 +133,12 @@ export default function Home() {
                   Start Free Trial
                   <ChevronRightIcon className="ml-2 h-5 w-5" />
                 </Link>
-                <Link href="#demo" className="btn-secondary text-lg px-8 py-4">
+                <button 
+                  onClick={() => window.open('https://youtube.com/shorts/PPleB64o_V0?si=2kCXutazs_0GweNu', '_blank')}
+                  className="btn-secondary text-lg px-8 py-4"
+                >
                   Watch Demo
-                </Link>
+                </button>
               </div>
               <p className="text-sm text-secondary-500 mt-4">
                 7-day free trial • No credit card required • Setup in 5 minutes
@@ -234,9 +237,15 @@ export default function Home() {
                     ))}
                   </ul>
 
-                  <button className={`w-full ${tier.popular ? 'btn-primary' : 'btn-secondary'}`}>
-                    {tier.cta}
-                  </button>
+                  {tier.cta === 'Contact Sales' ? (
+                    <Link href="/contact" className={`block w-full text-center ${tier.popular ? 'btn-primary' : 'btn-secondary'}`}>
+                      {tier.cta}
+                    </Link>
+                  ) : (
+                    <Link href="/ask-ai" className={`block w-full text-center ${tier.popular ? 'btn-primary' : 'btn-secondary'}`}>
+                      {tier.cta}
+                    </Link>
+                  )}
                 </div>
               ))}
             </div>
@@ -251,6 +260,25 @@ export default function Home() {
               <p className="text-large max-w-2xl mx-auto mb-8">
                 Watch how our AI-powered platform transforms legal compliance for Massachusetts, Rhode Island, and Connecticut startups
               </p>
+              
+              {/* YouTube Short Embed */}
+              <div className="flex justify-center mb-12">
+                <div className="relative w-full max-w-md">
+                  <div className="aspect-[9/16] bg-black rounded-lg overflow-hidden shadow-2xl">
+                    <iframe
+                      src="https://www.youtube.com/embed/PPleB64o_V0"
+                      title="AI Legal Agents Demo"
+                      className="w-full h-full"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                  <div className="text-center mt-4">
+                    <p className="text-sm text-secondary-600">60-second platform overview</p>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -356,9 +384,27 @@ export default function Home() {
             <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
               Join the next generation of startups automating legal compliance with AI
             </p>
-            <Link href="/ask-ai" className="bg-white text-primary-600 hover:bg-primary-50 font-medium py-4 px-8 rounded-lg text-lg transition-colors duration-200">
-              Start Your Free Trial
-            </Link>
+            <form name="early-access" method="POST" action="/thank-you" data-netlify="true" className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto mb-6">
+              <input type="hidden" name="form-name" value="early-access" />
+              <input 
+                type="email" 
+                name="email"
+                placeholder="Enter your email for early access"
+                required
+                className="flex-1 px-4 py-3 rounded-lg border-0 focus:ring-2 focus:ring-white focus:ring-opacity-50"
+              />
+              <button type="submit" className="bg-white text-primary-600 hover:bg-primary-50 font-medium py-3 px-6 rounded-lg transition-colors duration-200 whitespace-nowrap">
+                Get Early Access
+              </button>
+            </form>
+            <div className="mb-8">
+              <Link href="/ask-ai" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary-600 font-medium py-4 px-8 rounded-lg text-lg transition-colors duration-200">
+                Start Your Free Trial
+              </Link>
+            </div>
+            <p className="text-sm text-primary-200">
+              Join 500+ founders who've automated their legal operations • No spam, ever
+            </p>
           </div>
         </section>
 
@@ -371,9 +417,9 @@ export default function Home() {
                 <span className="text-xl font-bold">AI Legal Agents</span>
               </div>
               <div className="flex space-x-6 text-secondary-400">
-                <Link href="/privacy" className="hover:text-white">Privacy Policy</Link>
-                <Link href="/terms" className="hover:text-white">Terms of Service</Link>
                 <Link href="/contact" className="hover:text-white">Contact</Link>
+                <Link href="/pricing" className="hover:text-white">Pricing</Link>
+                <Link href="/experts" className="hover:text-white">Experts</Link>
               </div>
             </div>
             <div className="border-t border-secondary-800 mt-8 pt-8 text-center text-secondary-400">
