@@ -1,5 +1,11 @@
 # AI Legal Agents - Complete MVP Platform
 
+<!-- repo-intro:start -->
+**Project snapshot:** AI Legal Agents is an earlier legal-tech MVP exploring AI-assisted triage, retrieval, document generation, analytics, and self-service legal workflows across a multi-page web product.
+
+**What it demonstrates:** Next.js · AI/RAG concepts · document workflows · API design · legal-tech prototyping.
+<!-- repo-intro:end -->
+
 ## 🎯 Mission
 **"No one loses their liberty for lack of legal know-how."**
 
